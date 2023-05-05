@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blind75", "Blind75", "{59026D0D-73F6-4961-A325-DE27E5C2A254}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Sum", "Blind75\Two Sum\Two Sum.csproj", "{BB993A6D-5AC8-4B9E-B702-09DAB7B2C1CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array", "Array", "{3AB4EF0C-A9F8-4665-B283-06947933EBDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Best Time to Buy and Sell Stock", "Array\Best Time to Buy and Sell Stock\Best Time to Buy and Sell Stock.csproj", "{491D8013-AFE0-4344-A828-9E67218CEB83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB993A6D-5AC8-4B9E-B702-09DAB7B2C1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB993A6D-5AC8-4B9E-B702-09DAB7B2C1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB993A6D-5AC8-4B9E-B702-09DAB7B2C1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB993A6D-5AC8-4B9E-B702-09DAB7B2C1CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491D8013-AFE0-4344-A828-9E67218CEB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491D8013-AFE0-4344-A828-9E67218CEB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491D8013-AFE0-4344-A828-9E67218CEB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491D8013-AFE0-4344-A828-9E67218CEB83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB993A6D-5AC8-4B9E-B702-09DAB7B2C1CA} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
+		{3AB4EF0C-A9F8-4665-B283-06947933EBDD} = {59026D0D-73F6-4961-A325-DE27E5C2A254}
+		{491D8013-AFE0-4344-A828-9E67218CEB83} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BAF08D2-9159-4B77-97A5-2F52922C52D8}
+	EndGlobalSection
+EndGlobal
