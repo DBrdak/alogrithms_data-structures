@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array", "Array", "{3AB4EF0C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Best Time to Buy and Sell Stock", "Array\Best Time to Buy and Sell Stock\Best Time to Buy and Sell Stock.csproj", "{491D8013-AFE0-4344-A828-9E67218CEB83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contains Duplicate", "Array\Contains Duplicate\Contains Duplicate.csproj", "{1FB736C7-022D-4818-B8BE-1F65646EF473}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{491D8013-AFE0-4344-A828-9E67218CEB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{491D8013-AFE0-4344-A828-9E67218CEB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{491D8013-AFE0-4344-A828-9E67218CEB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB736C7-022D-4818-B8BE-1F65646EF473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB736C7-022D-4818-B8BE-1F65646EF473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB736C7-022D-4818-B8BE-1F65646EF473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB736C7-022D-4818-B8BE-1F65646EF473}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,6 +39,7 @@ Global
 		{BB993A6D-5AC8-4B9E-B702-09DAB7B2C1CA} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
 		{3AB4EF0C-A9F8-4665-B283-06947933EBDD} = {59026D0D-73F6-4961-A325-DE27E5C2A254}
 		{491D8013-AFE0-4344-A828-9E67218CEB83} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
+		{1FB736C7-022D-4818-B8BE-1F65646EF473} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3BAF08D2-9159-4B77-97A5-2F52922C52D8}
