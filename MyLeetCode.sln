@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search in Rotated Sorted Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Sum", "Blind75\Array\3Sum\3Sum.csproj", "{DB879050-2736-400C-BBD9-5DB9DD531653}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Container With Most Water", "Blind75\Array\Container With Most Water\Container With Most Water.csproj", "{1D518058-5A1F-4B89-93BD-734A1727A40E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{DB879050-2736-400C-BBD9-5DB9DD531653}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB879050-2736-400C-BBD9-5DB9DD531653}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB879050-2736-400C-BBD9-5DB9DD531653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D518058-5A1F-4B89-93BD-734A1727A40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D518058-5A1F-4B89-93BD-734A1727A40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D518058-5A1F-4B89-93BD-734A1727A40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D518058-5A1F-4B89-93BD-734A1727A40E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +88,7 @@ Global
 		{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
 		{3F5E1126-60AF-4BAC-B25B-FC8A1EE558E4} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
 		{DB879050-2736-400C-BBD9-5DB9DD531653} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
+		{1D518058-5A1F-4B89-93BD-734A1727A40E} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3BAF08D2-9159-4B77-97A5-2F52922C52D8}
