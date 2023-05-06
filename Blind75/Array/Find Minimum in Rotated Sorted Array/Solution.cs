@@ -6,7 +6,7 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(FindMin(new []{1,2,0,4,5,9,12,0,-5}));
         }
     }
 }

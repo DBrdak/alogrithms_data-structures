@@ -17,9 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product of Array Except Sel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Subarray", "Blind75\Array\Maximum Subarray\Maximum Subarray.csproj", "{CC65FCEF-0C8B-467F-AD45-9A086183D8F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Product Subarray", "Blind75\Array\Maximum Product Subarray\Maximum Product Subarray.csproj", "{D6940962-2BAC-4C7D-B73F-4D14575C888B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Product Subarray", "Blind75\Array\Maximum Product Subarray\Maximum Product Subarray.csproj", "{D6940962-2BAC-4C7D-B73F-4D14575C888B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find Minimum in Rotated Sorted Array", "Blind75\Array\Find Minimum in Rotated Sorted Array\Find Minimum in Rotated Sorted Array.csproj", "{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find Minimum in Rotated Sorted Array", "Blind75\Array\Find Minimum in Rotated Sorted Array\Find Minimum in Rotated Sorted Array.csproj", "{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search in Rotated Sorted Array", "Blind75\Array\Search in Rotated Sorted Array\Search in Rotated Sorted Array.csproj", "{3F5E1126-60AF-4BAC-B25B-FC8A1EE558E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Sum", "Blind75\Array\3Sum\3Sum.csproj", "{DB879050-2736-400C-BBD9-5DB9DD531653}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,14 @@ Global
 		{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5E1126-60AF-4BAC-B25B-FC8A1EE558E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5E1126-60AF-4BAC-B25B-FC8A1EE558E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5E1126-60AF-4BAC-B25B-FC8A1EE558E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5E1126-60AF-4BAC-B25B-FC8A1EE558E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB879050-2736-400C-BBD9-5DB9DD531653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB879050-2736-400C-BBD9-5DB9DD531653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB879050-2736-400C-BBD9-5DB9DD531653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB879050-2736-400C-BBD9-5DB9DD531653}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +80,8 @@ Global
 		{CC65FCEF-0C8B-467F-AD45-9A086183D8F4} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
 		{D6940962-2BAC-4C7D-B73F-4D14575C888B} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
 		{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
+		{3F5E1126-60AF-4BAC-B25B-FC8A1EE558E4} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
+		{DB879050-2736-400C-BBD9-5DB9DD531653} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3BAF08D2-9159-4B77-97A5-2F52922C52D8}
