@@ -5,13 +5,21 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blind75", "Blind75", "{59026D0D-73F6-4961-A325-DE27E5C2A254}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Sum", "Blind75\Two Sum\Two Sum.csproj", "{BB993A6D-5AC8-4B9E-B702-09DAB7B2C1CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Sum", "Blind75\Array\Two Sum\Two Sum.csproj", "{BB993A6D-5AC8-4B9E-B702-09DAB7B2C1CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array", "Array", "{3AB4EF0C-A9F8-4665-B283-06947933EBDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Best Time to Buy and Sell Stock", "Array\Best Time to Buy and Sell Stock\Best Time to Buy and Sell Stock.csproj", "{491D8013-AFE0-4344-A828-9E67218CEB83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Best Time to Buy and Sell Stock", "Blind75\Array\Best Time to Buy and Sell Stock\Best Time to Buy and Sell Stock.csproj", "{491D8013-AFE0-4344-A828-9E67218CEB83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contains Duplicate", "Array\Contains Duplicate\Contains Duplicate.csproj", "{1FB736C7-022D-4818-B8BE-1F65646EF473}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contains Duplicate", "Blind75\Array\Contains Duplicate\Contains Duplicate.csproj", "{1FB736C7-022D-4818-B8BE-1F65646EF473}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product of Array Except Self", "Blind75\Array\Product of Array Except Self\Product of Array Except Self.csproj", "{6BCC001B-603A-415D-A564-D4A4041ADC27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Subarray", "Blind75\Array\Maximum Subarray\Maximum Subarray.csproj", "{CC65FCEF-0C8B-467F-AD45-9A086183D8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Product Subarray", "Blind75\Array\Maximum Product Subarray\Maximum Product Subarray.csproj", "{D6940962-2BAC-4C7D-B73F-4D14575C888B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find Minimum in Rotated Sorted Array", "Blind75\Array\Find Minimum in Rotated Sorted Array\Find Minimum in Rotated Sorted Array.csproj", "{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +39,22 @@ Global
 		{1FB736C7-022D-4818-B8BE-1F65646EF473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FB736C7-022D-4818-B8BE-1F65646EF473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FB736C7-022D-4818-B8BE-1F65646EF473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BCC001B-603A-415D-A564-D4A4041ADC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BCC001B-603A-415D-A564-D4A4041ADC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BCC001B-603A-415D-A564-D4A4041ADC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BCC001B-603A-415D-A564-D4A4041ADC27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC65FCEF-0C8B-467F-AD45-9A086183D8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC65FCEF-0C8B-467F-AD45-9A086183D8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC65FCEF-0C8B-467F-AD45-9A086183D8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC65FCEF-0C8B-467F-AD45-9A086183D8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6940962-2BAC-4C7D-B73F-4D14575C888B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6940962-2BAC-4C7D-B73F-4D14575C888B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6940962-2BAC-4C7D-B73F-4D14575C888B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6940962-2BAC-4C7D-B73F-4D14575C888B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +64,10 @@ Global
 		{3AB4EF0C-A9F8-4665-B283-06947933EBDD} = {59026D0D-73F6-4961-A325-DE27E5C2A254}
 		{491D8013-AFE0-4344-A828-9E67218CEB83} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
 		{1FB736C7-022D-4818-B8BE-1F65646EF473} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
+		{6BCC001B-603A-415D-A564-D4A4041ADC27} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
+		{CC65FCEF-0C8B-467F-AD45-9A086183D8F4} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
+		{D6940962-2BAC-4C7D-B73F-4D14575C888B} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
+		{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3BAF08D2-9159-4B77-97A5-2F52922C52D8}
