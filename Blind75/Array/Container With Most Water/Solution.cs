@@ -15,7 +15,7 @@
 
                 if (height[lp] < height[rp])
                     lp++;
-                else if (height[rp] < height[lp])
+                else
                     rp--;
             }
 
