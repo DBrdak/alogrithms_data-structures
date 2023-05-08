@@ -21,11 +21,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Product Subarray", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find Minimum in Rotated Sorted Array", "Blind75\Array\Find Minimum in Rotated Sorted Array\Find Minimum in Rotated Sorted Array.csproj", "{9A50C993-57FA-48D1-8D5E-A51FAED8CDB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search in Rotated Sorted Array", "Blind75\Array\Search in Rotated Sorted Array\Search in Rotated Sorted Array.csproj", "{3F5E1126-60AF-4BAC-B25B-FC8A1EE558E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Search in Rotated Sorted Array", "Blind75\Array\Search in Rotated Sorted Array\Search in Rotated Sorted Array.csproj", "{3F5E1126-60AF-4BAC-B25B-FC8A1EE558E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Sum", "Blind75\Array\3Sum\3Sum.csproj", "{DB879050-2736-400C-BBD9-5DB9DD531653}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3Sum", "Blind75\Array\3Sum\3Sum.csproj", "{DB879050-2736-400C-BBD9-5DB9DD531653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Container With Most Water", "Blind75\Array\Container With Most Water\Container With Most Water.csproj", "{1D518058-5A1F-4B89-93BD-734A1727A40E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Container With Most Water", "Blind75\Array\Container With Most Water\Container With Most Water.csproj", "{1D518058-5A1F-4B89-93BD-734A1727A40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of Two Integers", "Blind75\Binary\Sum of Two Integers\Sum of Two Integers.csproj", "{505F7588-0B5C-498C-AE60-A47DB87648BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Binary", "Binary", "{620BA311-323E-4B0A-B541-F2B0B5939637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number of 1 Bits", "Blind75\Binary\Number of 1 Bits\Number of 1 Bits.csproj", "{1D0A4ED5-76AB-45E3-92A2-D9C305701E4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +79,14 @@ Global
 		{1D518058-5A1F-4B89-93BD-734A1727A40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D518058-5A1F-4B89-93BD-734A1727A40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D518058-5A1F-4B89-93BD-734A1727A40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505F7588-0B5C-498C-AE60-A47DB87648BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505F7588-0B5C-498C-AE60-A47DB87648BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505F7588-0B5C-498C-AE60-A47DB87648BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505F7588-0B5C-498C-AE60-A47DB87648BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0A4ED5-76AB-45E3-92A2-D9C305701E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0A4ED5-76AB-45E3-92A2-D9C305701E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0A4ED5-76AB-45E3-92A2-D9C305701E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0A4ED5-76AB-45E3-92A2-D9C305701E4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +103,9 @@ Global
 		{3F5E1126-60AF-4BAC-B25B-FC8A1EE558E4} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
 		{DB879050-2736-400C-BBD9-5DB9DD531653} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
 		{1D518058-5A1F-4B89-93BD-734A1727A40E} = {3AB4EF0C-A9F8-4665-B283-06947933EBDD}
+		{505F7588-0B5C-498C-AE60-A47DB87648BF} = {620BA311-323E-4B0A-B541-F2B0B5939637}
+		{620BA311-323E-4B0A-B541-F2B0B5939637} = {59026D0D-73F6-4961-A325-DE27E5C2A254}
+		{1D0A4ED5-76AB-45E3-92A2-D9C305701E4A} = {620BA311-323E-4B0A-B541-F2B0B5939637}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3BAF08D2-9159-4B77-97A5-2F52922C52D8}
