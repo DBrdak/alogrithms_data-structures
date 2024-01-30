@@ -2,7 +2,7 @@
 
 namespace Number_of_1_Bits
 {
-    internal class Program
+    internal class Solution
     {
         public static int HammingWeight(uint n) => PopCount((int)n);
 

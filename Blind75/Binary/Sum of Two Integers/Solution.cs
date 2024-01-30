@@ -7,7 +7,7 @@
             while (b != 0)
             {
                 int temp = a;
-                a = a ^ b;
+                a ^= b;
                 b = (b & temp) << 1;
             }
             return a;
