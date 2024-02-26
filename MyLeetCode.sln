@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number of 1 Bits", "Blind75
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{BF235FA5-7288-4917-998E-440A0FA817FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clone Graph", "Blind75\Graph\Clone Graph\Clone Graph.csproj", "{E152888F-CB30-4A0F-B45B-6124215770D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clone Graph", "Blind75\Graph\Clone Graph\Clone Graph.csproj", "{E152888F-CB30-4A0F-B45B-6124215770D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeetCodeRoadmap", "NeetCodeRoadmap\NeetCodeRoadmap.csproj", "{58A56766-3E8B-4E9E-B5A1-5C97462359F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +97,10 @@ Global
 		{E152888F-CB30-4A0F-B45B-6124215770D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E152888F-CB30-4A0F-B45B-6124215770D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E152888F-CB30-4A0F-B45B-6124215770D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A56766-3E8B-4E9E-B5A1-5C97462359F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A56766-3E8B-4E9E-B5A1-5C97462359F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A56766-3E8B-4E9E-B5A1-5C97462359F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A56766-3E8B-4E9E-B5A1-5C97462359F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
