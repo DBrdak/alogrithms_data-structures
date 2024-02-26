@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NeetCodeRoadmap.Arrays_Hashing
 {
-    public class ArraysHashing
+    public class ContainsDuplicateSolution
     {
         public bool ContainsDuplicate(int[] nums)
         {

@@ -6,10 +6,10 @@ namespace NeetCodeRoadmap
     {
         static void Main(string[] args)
         {
-            var ah = new ArraysHashing();
+            var solution = new ValidAnagramSolution();
 
-            ah.ContainsDuplicate(new[] { 2, 14, 18, 22, 22 });
-            
+            solution.IsAnagram("anagram", "naagram");
+
             Console.WriteLine("Hello, World!");
         }
     }
